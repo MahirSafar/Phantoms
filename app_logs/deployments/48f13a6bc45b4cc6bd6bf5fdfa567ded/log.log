@@ -1,0 +1,32 @@
+2026-05-14T10:23:03.4406315Z,Updating submodules.,1153f6b2-7e70-4d51-b530-0bf79a0ff818,0
+2026-05-14T10:23:03.4718843Z,Preparing deployment for commit id '48f13a6bc4'.,7150c491-2c7e-4543-afd8-9ba9c77d15f1,0
+2026-05-14T10:23:03.5500067Z,Running build. Project type: OneDeploy,cf58d0fd-f3da-4765-a3b6-c5287f84b57b,0
+2026-05-14T10:23:03.5656319Z,Copying the manifest,41799aab-2769-448c-99b5-f6a88d60f07c,0
+2026-05-14T10:23:03.5968813Z,Clean deploying to C:\home\site\wwwroot,26e54a5d-9ef8-445e-a1b7-13156c61b282,0
+2026-05-14T10:23:03.6281318Z,Generating deployment script.,de2f0b52-0c46-4d3a-bb81-12c22f60f561,0
+	2026-05-14T10:23:03.6906342Z,Using cached version of deployment script (command: 'azure -y --no-dot-deployment -r "C:\local\Temp\zipdeploy\extracted" -o "C:\home\site\deployments\tools" --basic --sitePath "C:\local\Temp\zipdeploy\extracted"').,,0
+2026-05-14T10:23:03.7375068Z,Running deployment command...,44b593a5-abba-41b5-84bf-93026eaba689,0
+	2026-05-14T10:23:03.7531328Z,Command: "C:\home\site\deployments\tools\deploy.cmd",,0
+	2026-05-14T10:23:03.9718851Z,Handling Basic Web Site deployment.,,0
+	2026-05-14T10:23:06.6281350Z,Creating app_offline.htm,,0
+	2026-05-14T10:23:06.6281350Z,KuduSync.NET from: 'C:\local\Temp\zipdeploy\extracted' to: 'C:\home\site\wwwroot',,0
+	2026-05-14T10:23:06.6437603Z,Deleting file: 'appsettings.Production.json',,0
+	2026-05-14T10:23:06.6437603Z,Copying file: 'Phantoms.API.dll',,0
+	2026-05-14T10:23:06.6593845Z,Copying file: 'Phantoms.API.exe',,0
+	2026-05-14T10:23:06.6750101Z,Copying file: 'Phantoms.API.pdb',,0
+	2026-05-14T10:23:06.6750101Z,Copying file: 'Phantoms.Application.dll',,0
+	2026-05-14T10:23:06.6906345Z,Copying file: 'Phantoms.Application.pdb',,0
+	2026-05-14T10:23:06.7062607Z,Copying file: 'Phantoms.Domain.dll',,0
+	2026-05-14T10:23:06.7062607Z,Copying file: 'Phantoms.Domain.pdb',,0
+	2026-05-14T10:23:06.7218844Z,Copying file: 'Phantoms.Infrastructure.dll',,0
+	2026-05-14T10:23:06.7218844Z,Copying file: 'Phantoms.Infrastructure.pdb',,0
+	2026-05-14T10:23:06.7375097Z,Copying file: 'Phantoms.Persistence.dll',,0
+	2026-05-14T10:23:06.7375097Z,Copying file: 'Phantoms.Persistence.pdb',,0
+	2026-05-14T10:23:06.7531346Z,Deleting app_offline.htm,,0
+	2026-05-14T10:23:06.7531346Z,Finished successfully.,,0
+2026-05-14T10:23:06.7843921Z,Build completed succesfully.,e529045b-91df-4481-b7cb-8eef02414f68,0
+2026-05-14T10:23:06.8000112Z,Running post deployment command(s)...,2f8dc126-253e-4e53-b783-d92f2bbeec71,0
+2026-05-14T10:23:06.8312655Z,Requesting site restart,64099384-227a-4174-aefc-214fd5b643a1,0
+2026-05-14T10:23:06.8625116Z,Requesting site restart. Attempt #1,a08bf2f9-dcbf-44c4-8818-44cedf4cf681,0
+2026-05-14T10:23:07.1906365Z,Successfully requested a restart. Attempt #1,68d6d94d-eded-4616-9d07-93f2b1c71421,0
+2026-05-14T10:23:07.2218872Z,Deployment successful.,fb4e318c-0d21-4631-9225-3c1ffb830417,0

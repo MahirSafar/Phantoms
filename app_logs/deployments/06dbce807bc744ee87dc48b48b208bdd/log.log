@@ -1,0 +1,21 @@
+2026-05-14T10:44:22.0383779Z,Updating submodules.,97cf7711-326d-4ed2-8386-a104095e3bf1,0
+2026-05-14T10:44:22.0696236Z,Preparing deployment for commit id '06dbce807b'.,e619a071-2ce0-4b1b-9094-7bc5ce51e469,0
+2026-05-14T10:44:22.1477976Z,Running build. Project type: OneDeploy,3029ca83-4d52-48bc-8452-f8d1bf987b0f,0
+2026-05-14T10:44:22.1789996Z,Copying the manifest,4a407bd0-b413-4616-a1d9-4bd0d7487aac,0
+2026-05-14T10:44:22.1946243Z,Clean deploying to C:\home\site\wwwroot,81a8e7bb-29f9-4524-8803-ed95b1bbd818,0
+2026-05-14T10:44:22.2258742Z,Generating deployment script.,29f003ec-880d-41a2-a56a-7217288e0a8a,0
+	2026-05-14T10:44:22.2727545Z,Using cached version of deployment script (command: 'azure -y --no-dot-deployment -r "C:\local\Temp\zipdeploy\extracted" -o "C:\home\site\deployments\tools" --basic --sitePath "C:\local\Temp\zipdeploy\extracted"').,,0
+2026-05-14T10:44:22.3196251Z,Running deployment command...,c1a87a5c-7da2-44fe-8255-dc99b0c74d0e,0
+	2026-05-14T10:44:22.3352505Z,Command: "C:\home\site\deployments\tools\deploy.cmd",,0
+	2026-05-14T10:44:22.4602694Z,Handling Basic Web Site deployment.,,0
+	2026-05-14T10:44:22.5540030Z,Creating app_offline.htm,,0
+	2026-05-14T10:44:22.5696282Z,KuduSync.NET from: 'C:\local\Temp\zipdeploy\extracted' to: 'C:\home\site\wwwroot',,0
+	2026-05-14T10:44:22.5696282Z,Copying file: 'appsettings.json',,0
+	2026-05-14T10:44:22.5852522Z,Deleting app_offline.htm,,0
+	2026-05-14T10:44:22.5852522Z,Finished successfully.,,0
+2026-05-14T10:44:22.6165028Z,Build completed succesfully.,71f2b180-97ba-44f4-9b80-b6ec04190a51,0
+2026-05-14T10:44:22.6477524Z,Running post deployment command(s)...,8da3cf92-90d1-4f2c-817f-3e74470b16a0,0
+2026-05-14T10:44:22.6790034Z,Requesting site restart,9762e719-97de-45a3-b1d3-3af3323cabf2,0
+2026-05-14T10:44:22.7102531Z,Requesting site restart. Attempt #1,934b4ca2-cb73-4c7e-85fd-c56af72dd57e,0
+2026-05-14T10:44:23.0696308Z,Successfully requested a restart. Attempt #1,a512e8fd-cde8-4fdc-ba3c-c8de6502d742,0
+2026-05-14T10:44:23.1008805Z,Deployment successful.,acac20fa-d806-410c-8d96-1c0d7ab0eac6,0

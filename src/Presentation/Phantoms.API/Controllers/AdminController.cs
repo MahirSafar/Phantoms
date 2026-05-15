@@ -10,7 +10,7 @@ using Phantoms.Domain.Entities;
 
 namespace Phantoms.API.Controllers;
 
-[Authorize(Roles = Roles.Admin)]
+[Authorize]
 public class AdminController(UserManager<AppUser> userManager) : BaseApiController
 {
     [HasPermission(Permissions.Users.View)]

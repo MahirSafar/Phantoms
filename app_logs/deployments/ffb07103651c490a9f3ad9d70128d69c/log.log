@@ -1,0 +1,23 @@
+2026-05-14T14:28:12.4924485Z,Updating submodules.,f86e4846-ac60-4157-96ef-9f0344a4f618,0
+2026-05-14T14:28:12.5080880Z,Preparing deployment for commit id 'ffb0710365'.,329e154b-fe37-433c-bd0f-4ab7e167273e,0
+2026-05-14T14:28:12.5862130Z,Running build. Project type: OneDeploy,b6a777ab-7491-4294-9c59-4cd3c89e674f,0
+2026-05-14T14:28:12.6643433Z,Copying the manifest,35c2b2bf-ec5c-49e4-b5df-8b778822ea55,0
+2026-05-14T14:28:12.7424683Z,Clean deploying to C:\home\site\wwwroot,89be2a51-2cb6-4ae6-99cc-cc5d31f019f0,0
+2026-05-14T14:28:12.7737132Z,Generating deployment script.,693a6684-87c9-4025-9453-8708f2bbe747,0
+	2026-05-14T14:28:12.7893396Z,Using cached version of deployment script (command: 'azure -y --no-dot-deployment -r "C:\local\Temp\zipdeploy\extracted" -o "C:\home\site\deployments\tools" --basic --sitePath "C:\local\Temp\zipdeploy\extracted"').,,0
+2026-05-14T14:28:12.8518407Z,Running deployment command...,684e9eef-96ad-4995-88d0-2eab6e146cc3,0
+	2026-05-14T14:28:12.8518407Z,Command: "C:\home\site\deployments\tools\deploy.cmd",,0
+	2026-05-14T14:28:12.9612188Z,Handling Basic Web Site deployment.,,0
+	2026-05-14T14:28:15.5081216Z,Creating app_offline.htm,,0
+	2026-05-14T14:28:15.5081216Z,KuduSync.NET from: 'C:\local\Temp\zipdeploy\extracted' to: 'C:\home\site\wwwroot',,0
+	2026-05-14T14:28:15.5237269Z,Copying file: 'Phantoms.API.dll',,0
+	2026-05-14T14:28:15.5393492Z,Copying file: 'Phantoms.API.exe',,0
+	2026-05-14T14:28:15.5393492Z,Copying file: 'Phantoms.API.pdb',,0
+	2026-05-14T14:28:15.5549739Z,Deleting app_offline.htm,,0
+	2026-05-14T14:28:15.5549739Z,Finished successfully.,,0
+2026-05-14T14:28:15.5862273Z,Build completed succesfully.,6cf39c79-2e99-4b9e-83de-da70c924ace2,0
+2026-05-14T14:28:15.6174750Z,Running post deployment command(s)...,9808ba01-a4de-41f3-8988-3b0566ba9864,0
+2026-05-14T14:28:15.6487250Z,Requesting site restart,08ed8e19-0680-4aca-b428-7a0c7dc12161,0
+2026-05-14T14:28:15.6799810Z,Requesting site restart. Attempt #1,0377c9d9-fc07-4193-9774-51093e432c9f,0
+2026-05-14T14:28:15.7737236Z,Successfully requested a restart. Attempt #1,d9875e67-7977-4fcf-ae8d-ffa8750123cf,0
+2026-05-14T14:28:15.8049750Z,Deployment successful.,580eff0a-8e43-420c-9cd7-e07949b9b404,0

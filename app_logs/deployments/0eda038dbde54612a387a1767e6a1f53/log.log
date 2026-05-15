@@ -1,0 +1,70 @@
+2026-05-13T15:58:27.9733620Z,Updating submodules.,8cf9e560-ba06-4a2a-9149-780ac0ba9468,0
+2026-05-13T15:58:28.0046080Z,Preparing deployment for commit id '0eda038dbd'.,a0b64877-a65e-43f8-8e07-df4455db032a,0
+2026-05-13T15:58:28.0827371Z,Running build. Project type: OneDeploy,ce594cc2-920a-4d4d-b45b-798d7d8ba18f,0
+2026-05-13T15:58:28.0983626Z,Copying the manifest,b6347dde-723c-44b2-88f0-431df70cb4b8,0
+2026-05-13T15:58:28.1296121Z,Clean deploying to C:\home\site\wwwroot,3cfa9229-5d7b-4ab7-babe-16a9c697a371,0
+2026-05-13T15:58:28.1452337Z,Generating deployment script.,7b3ec8b5-6a0e-44ac-821f-99bbffab4171,0
+	2026-05-13T15:58:28.1921155Z,Using the following command to generate deployment script: 'azure site deploymentscript -y --no-dot-deployment -r "C:\local\Temp\zipdeploy\extracted" -o "C:\home\site\deployments\tools" --basic --sitePath "C:\local\Temp\zipdeploy\extracted"'.,,0
+	2026-05-13T15:58:28.4108656Z,Generating deployment script for Web Site,,0
+	2026-05-13T15:58:28.4264851Z,Generated deployment script files,,0
+2026-05-13T15:58:28.4577349Z,Running deployment command...,3fc5ce59-f92d-4a37-8741-a09df4c69185,0
+	2026-05-13T15:58:28.4733604Z,Command: "C:\home\site\deployments\tools\deploy.cmd",,0
+	2026-05-13T15:58:28.5827347Z,Handling Basic Web Site deployment.,,0
+	2026-05-13T15:58:28.7546114Z,Creating app_offline.htm,,0
+	2026-05-13T15:58:28.7858615Z,KuduSync.NET from: 'C:\local\Temp\zipdeploy\extracted' to: 'C:\home\site\wwwroot',,0
+	2026-05-13T15:58:28.8014874Z,Deleting file: 'hostingstart.html',,0
+	2026-05-13T15:58:28.8014874Z,Copying file: 'appsettings.Development.json',,0
+	2026-05-13T15:58:28.8171134Z,Copying file: 'appsettings.json',,0
+	2026-05-13T15:58:28.8171134Z,Copying file: 'appsettings.Production.json',,0
+	2026-05-13T15:58:28.8327418Z,Copying file: 'AutoMapper.dll',,0
+	2026-05-13T15:58:28.8327418Z,Copying file: 'AutoMapper.Extensions.Microsoft.DependencyInjection.dll',,0
+	2026-05-13T15:58:28.8483623Z,Copying file: 'BouncyCastle.Cryptography.dll',,0
+	2026-05-13T15:58:28.8483623Z,Copying file: 'FluentValidation.DependencyInjectionExtensions.dll',,0
+	2026-05-13T15:58:28.8639873Z,Copying file: 'FluentValidation.dll',,0
+	2026-05-13T15:58:28.8639873Z,Copying file: 'Google.Apis.Auth.dll',,0
+	2026-05-13T15:58:28.8796144Z,Copying file: 'Google.Apis.Core.dll',,0
+	2026-05-13T15:58:28.8796144Z,Copying file: 'Google.Apis.dll',,0
+	2026-05-13T15:58:28.8952404Z,Copying file: 'MailKit.dll',,0
+	2026-05-13T15:58:28.8952404Z,Copying file: 'MediatR.Contracts.dll',,0
+	2026-05-13T15:58:28.9108665Z,Copying file: 'MediatR.dll',,0
+	2026-05-13T15:58:28.9108665Z,Copying file: 'Microsoft.AspNetCore.Authentication.Google.dll',,0
+	2026-05-13T15:58:28.9264933Z,Copying file: 'Microsoft.AspNetCore.Authentication.JwtBearer.dll',,0
+	2026-05-13T15:58:28.9421162Z,Copying file: 'Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll',,0
+	2026-05-13T15:58:28.9421162Z,Copying file: 'Microsoft.EntityFrameworkCore.Abstractions.dll',,0
+	2026-05-13T15:58:28.9577381Z,Copying file: 'Microsoft.EntityFrameworkCore.dll',,0
+	2026-05-13T15:58:28.9577381Z,Copying file: 'Microsoft.EntityFrameworkCore.Relational.dll',,0
+	2026-05-13T15:58:28.9733681Z,Copying file: 'Microsoft.IdentityModel.Abstractions.dll',,0
+	2026-05-13T15:58:28.9733681Z,Copying file: 'Microsoft.IdentityModel.JsonWebTokens.dll',,0
+	2026-05-13T15:58:28.9889922Z,Copying file: 'Microsoft.IdentityModel.Logging.dll',,0
+	2026-05-13T15:58:28.9889922Z,Copying file: 'Microsoft.IdentityModel.Protocols.dll',,0
+	2026-05-13T15:58:29.0046132Z,Copying file: 'Microsoft.IdentityModel.Protocols.OpenIdConnect.dll',,0
+	2026-05-13T15:58:29.0202380Z,Copying file: 'Microsoft.IdentityModel.Tokens.dll',,0
+	2026-05-13T15:58:29.0202380Z,Copying file: 'Microsoft.OpenApi.dll',,0
+	2026-05-13T15:58:29.0358637Z,Copying file: 'MimeKit.dll',,0
+	2026-05-13T15:58:29.0358637Z,Copying file: 'Newtonsoft.Json.dll',,0
+	2026-05-13T15:58:29.0514888Z,Copying file: 'Npgsql.dll',,0
+	2026-05-13T15:58:29.0514888Z,Copying file: 'Npgsql.EntityFrameworkCore.PostgreSQL.dll',,0
+	2026-05-13T15:58:29.0671136Z,Copying file: 'Phantoms.API.deps.json',,0
+	2026-05-13T15:58:29.0671136Z,Copying file: 'Phantoms.API.dll',,0
+	2026-05-13T15:58:29.0827393Z,Copying file: 'Phantoms.API.exe',,0
+	2026-05-13T15:58:29.0827393Z,Copying file: 'Phantoms.API.pdb',,0
+	2026-05-13T15:58:29.0983635Z,Copying file: 'Phantoms.API.runtimeconfig.json',,0
+	2026-05-13T15:58:29.0983635Z,Copying file: 'Phantoms.API.staticwebassets.endpoints.json',,0
+	2026-05-13T15:58:29.1139892Z,Copying file: 'Phantoms.Application.dll',,0
+	2026-05-13T15:58:29.1296142Z,Copying file: 'Phantoms.Application.pdb',,0
+	2026-05-13T15:58:29.1296142Z,Copying file: 'Phantoms.Domain.dll',,0
+	2026-05-13T15:58:29.1452395Z,Copying file: 'Phantoms.Domain.pdb',,0
+	2026-05-13T15:58:29.1452395Z,Copying file: 'Phantoms.Infrastructure.dll',,0
+	2026-05-13T15:58:29.1608641Z,Copying file: 'Phantoms.Infrastructure.pdb',,0
+	2026-05-13T15:58:29.1764892Z,Copying file: 'Phantoms.Persistence.dll',,0
+	2026-05-13T15:58:29.1764892Z,Copying file: 'Phantoms.Persistence.pdb',,0
+	2026-05-13T15:58:29.1921143Z,Copying file: 'Swashbuckle.AspNetCore.Swagger.dll',,0
+	2026-05-13T15:58:29.1921143Z,Copying file: 'Swashbuckle.AspNetCore.SwaggerGen.dll',,0
+	2026-05-13T15:58:29.2077394Z,Omitting next output lines...,,0
+	2026-05-13T15:58:29.2077394Z,Finished successfully.,,0
+2026-05-13T15:58:29.2858660Z,Build completed succesfully.,bd52da5e-e5cb-4951-b188-291092882760,0
+2026-05-13T15:58:29.3171733Z,Running post deployment command(s)...,6858613a-8e75-42c0-b5c5-5340b50c1c43,0
+2026-05-13T15:58:29.3483656Z,Requesting site restart,36c11c2d-adbf-443e-858e-0c10177a30b0,0
+2026-05-13T15:58:29.3796227Z,Requesting site restart. Attempt #1,d4244b77-0833-4325-b162-084d980dbcc8,0
+2026-05-13T15:58:29.7233694Z,Successfully requested a restart. Attempt #1,086168a9-74aa-4e3e-9efb-62bb376f4e9a,0
+2026-05-13T15:58:29.7546328Z,Deployment successful.,5fe5719c-cf58-4267-9fa5-cf23f0787707,0

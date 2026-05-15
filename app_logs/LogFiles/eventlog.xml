@@ -1,0 +1,405 @@
+<Events><Event><System><Provider Name=".NET Runtime"/><EventID>1000</EventID><Level>1</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-13T15:59:23Z"/><EventRecordID>572183984</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Category: Microsoft.EntityFrameworkCore.Database.Connection
+EventId: 20004
+
+An error occurred using the connection to database 'PhantomsDb' on server 'tcp://codephantoms-db.postgres.database.azure.com:5432'.
+</Data></EventData></Event><Event><System><Provider Name=".NET Runtime"/><EventID>1000</EventID><Level>2</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-13T15:59:26Z"/><EventRecordID>572187484</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Category: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager
+EventId: 35
+
+No XML encryptor configured. Key {5b9e08de-8a32-4079-8ef5-f83d5495ab4e} may be persisted to storage in unencrypted form.
+</Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1032</EventID><Level>4</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-13T15:59:26Z"/><EventRecordID>572187531</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Application 'C:\home\site\wwwroot\' started successfully.</Data><Data>Process Id: 8592.</Data><Data>File Version: 20.0.26050.4. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: </Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1033</EventID><Level>4</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-13T16:29:18Z"/><EventRecordID>573979125</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Application 'MACHINE/WEBROOT/APPHOST/CODEPHANTOMS' has shutdown.</Data><Data>Process Id: 8592.</Data><Data>File Version: 20.0.26050.4. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: </Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1032</EventID><Level>4</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-14T07:02:05Z"/><EventRecordID>626346234</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Application 'C:\home\site\wwwroot\' started successfully.</Data><Data>Process Id: 24080.</Data><Data>File Version: 20.0.26050.4. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: </Data></EventData></Event><Event><System><Provider Name=".NET Runtime"/><EventID>1000</EventID><Level>2</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-14T07:17:07Z"/><EventRecordID>627247453</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Category: Phantoms.Infrastructure.Services.GoogleTokenValidator
+EventId: 0
+SpanId: fc10a60d135a720e
+TraceId: 03f74b3d0e1fd63c759f4dbda6b77310
+ParentId: 0000000000000000
+RequestId: 400008f2-0006-fa00-b63f-84710c7967bb
+RequestPath: /api/Auth/google-signin
+ActionId: 27a6347e-6ecc-42c1-b881-ace70cfde653
+ActionName: Phantoms.API.Controllers.AuthController.GoogleSignIn (Phantoms.API)
+
+Google token validation failed: JWT contains untrusted 'aud' claim.
+</Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1033</EventID><Level>4</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-14T08:56:54Z"/><EventRecordID>633234765</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Application 'MACHINE/WEBROOT/APPHOST/CODEPHANTOMS' has shutdown.</Data><Data>Process Id: 24080.</Data><Data>File Version: 20.0.26050.4. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: </Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1032</EventID><Level>4</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-14T10:02:15Z"/><EventRecordID>637155656</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Application 'C:\home\site\wwwroot\' started successfully.</Data><Data>Process Id: 24276.</Data><Data>File Version: 20.0.26050.4. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: </Data></EventData></Event><Event><System><Provider Name=".NET Runtime"/><EventID>1000</EventID><Level>2</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-14T10:12:15Z"/><EventRecordID>637756046</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Category: LuckyPennySoftware.MediatR.License
+EventId: 0
+SpanId: 791af3ed15ab9605
+TraceId: 32db78bf0f50418d4d8a58145c2634e9
+ParentId: 0000000000000000
+RequestId: 4000114f-0002-f800-b63f-84710c7967bb
+RequestPath: /api/Products
+ActionId: 82998de5-8d1a-49a9-b36e-d182528d830d
+ActionName: Phantoms.API.Controllers.ProductsController.GetAll (Phantoms.API)
+
+You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+</Data></EventData></Event><Event><System><Provider Name=".NET Runtime"/><EventID>1000</EventID><Level>2</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-14T10:14:06Z"/><EventRecordID>637867234</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Category: Phantoms.Infrastructure.Services.GoogleTokenValidator
+EventId: 0
+SpanId: 14a61f7e346b6490
+TraceId: a7497850c370e1394fff47724208ba39
+ParentId: 0000000000000000
+RequestId: 40000167-0004-f000-b63f-84710c7967bb
+RequestPath: /api/Auth/google-signin
+ActionId: 3a2ea974-e850-49ca-a9f8-ff9dcef9677b
+ActionName: Phantoms.API.Controllers.AuthController.GoogleSignIn (Phantoms.API)
+
+Google token validation failed: JWT contains untrusted 'aud' claim.
+</Data></EventData></Event><Event><System><Provider Name=".NET Runtime"/><EventID>1000</EventID><Level>2</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-14T10:14:27Z"/><EventRecordID>637888265</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Category: Phantoms.Infrastructure.Services.GoogleTokenValidator
+EventId: 0
+SpanId: a4a666e0aa117e2c
+TraceId: b2aa1ba5e3145950e6915d4dc4f65705
+ParentId: 0000000000000000
+RequestId: 4000281b-0006-f600-b63f-84710c7967bb
+RequestPath: /api/Auth/google-signin
+ActionId: 3a2ea974-e850-49ca-a9f8-ff9dcef9677b
+ActionName: Phantoms.API.Controllers.AuthController.GoogleSignIn (Phantoms.API)
+
+Google token validation failed: JWT must consist of Header, Payload, and Signature
+</Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1012</EventID><Level>4</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-14T10:23:04Z"/><EventRecordID>638404343</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Application 'C:\home\site\wwwroot\' was recycled after detecting app_offline.htm.</Data><Data>Process Id: 24276.</Data><Data>File Version: 20.0.26050.4. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: </Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1033</EventID><Level>4</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-14T10:23:04Z"/><EventRecordID>638404406</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Application 'MACHINE/WEBROOT/APPHOST/CODEPHANTOMS' has shutdown.</Data><Data>Process Id: 24276.</Data><Data>File Version: 20.0.26050.4. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: </Data></EventData></Event><Event><System><Provider Name=".NET Runtime"/><EventID>1000</EventID><Level>1</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-14T10:23:25Z"/><EventRecordID>638425984</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Category: Microsoft.EntityFrameworkCore.Database.Connection
+EventId: 20004
+
+An error occurred using the connection to database 'PhantomsDb' on server 'tcp://localhost:5432'.
+</Data></EventData></Event><Event><System><Provider Name=".NET Runtime"/><EventID>1026</EventID><Level>1</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-14T10:23:25Z"/><EventRecordID>638426203</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Application: w3wp.exe
+CoreCLR Version: 10.0.426.12010
+.NET Version: 10.0.4
+Description: The process was terminated due to an unhandled exception.
+Exception Info: Npgsql.NpgsqlException (0x80004005): Failed to connect to [::1]:5432
+ ---&gt; System.Net.Sockets.SocketException (10013): An attempt was made to access a socket in a way forbidden by its access permissions.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at Npgsql.Internal.NpgsqlConnector.ConnectAsync(NpgsqlTimeout timeout, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.ConnectAsync(NpgsqlTimeout timeout, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.RawOpen(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.&lt;Open&gt;g__OpenCore|209_0(NpgsqlConnector conn, String username, SslMode sslMode, GssEncryptionMode gssEncMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.&lt;Get&gt;g__RentAsync|33_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.&lt;Open&gt;g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Migrations.HistoryRepository.GetAppliedMigrationsAsync(CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Migrations.Internal.NpgsqlHistoryRepository.GetAppliedMigrationsAsync(CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Migrations.Internal.NpgsqlMigrator.MigrateAsync(String targetMigration, CancellationToken cancellationToken)
+   at Phantoms.Persistence.DependencyInjection.ApplyMigrationsAsync(IServiceProvider services) in C:\Users\Mahir\Saved Games\Phantoms\src\Infrastructure\Phantoms.Persistence\DependencyInjection.cs:line 53
+   at Program.&lt;Main&gt;$(String[] args) in C:\Users\Mahir\Saved Games\Phantoms\src\Presentation\Phantoms.API\Program.cs:line 68
+   at Program.&lt;Main&gt;(String[] args)
+</Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1018</EventID><Level>1</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-14T10:23:25Z"/><EventRecordID>638426203</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Application '/LM/W3SVC/1566072750/ROOT' with physical root 'C:\home\site\wwwroot\' hit unexpected managed exception, exception code = '0xe0434352'. First 30KB characters of captured stdout and stderr logs:
+fail: Microsoft.EntityFrameworkCore.Database.Connection[20004]
+      An error occurred using the connection to database 'PhantomsDb' on server 'tcp://localhost:5432'.
+Unhandled exception. Npgsql.NpgsqlException (0x80004005): Failed to connect to [::1]:5432
+ ---&gt; System.Net.Sockets.SocketException (10013): An attempt was made to access a socket in a way forbidden by its access permissions.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at Npgsql.Internal.NpgsqlConnector.ConnectAsync(NpgsqlTimeout timeout, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.ConnectAsync(NpgsqlTimeout timeout, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.RawOpen(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.&lt;Open&gt;g__OpenCore|209_0(NpgsqlConnector conn, String username, SslMode sslMode, GssEncryptionMode gssEncMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.&lt;Get&gt;g__RentAsync|33_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.&lt;Open&gt;g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Migrations.HistoryRepository.GetAppliedMigrationsAsync(CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Migrations.Internal.NpgsqlHistoryRepository.GetAppliedMigrationsAsync(CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Migrations.Internal.NpgsqlMigrator.MigrateAsync(String targetMigration, CancellationToken cancellationToken)
+   at Phantoms.Persistence.DependencyInjection.ApplyMigrationsAsync(IServiceProvider services) in C:\Users\Mahir\Saved Games\Phantoms\src\Infrastructure\Phantoms.Persistence\DependencyInjection.cs:line 53
+   at Program.&lt;Main&gt;$(String[] args) in C:\Users\Mahir\Saved Games\Phantoms\src\Presentation\Phantoms.API\Program.cs:line 68
+   at Program.&lt;Main&gt;(String[] args)
+</Data><Data>Process Id: 12604.</Data><Data>File Version: 20.0.26050.4. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: </Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1007</EventID><Level>1</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-14T10:23:25Z"/><EventRecordID>638426203</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Application '/LM/W3SVC/1566072750/ROOT' with physical root 'C:\home\site\wwwroot\' failed to load coreclr. Exception message:
+CLR worker thread exited prematurely</Data><Data>Process Id: 12604.</Data><Data>File Version: 20.0.26050.4. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: </Data></EventData></Event><Event><System><Provider Name=".NET Runtime"/><EventID>1000</EventID><Level>1</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-14T10:23:31Z"/><EventRecordID>638432281</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Category: Microsoft.EntityFrameworkCore.Database.Connection
+EventId: 20004
+
+An error occurred using the connection to database 'PhantomsDb' on server 'tcp://localhost:5432'.
+</Data></EventData></Event><Event><System><Provider Name=".NET Runtime"/><EventID>1026</EventID><Level>1</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-14T10:23:31Z"/><EventRecordID>638432296</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Application: w3wp.exe
+CoreCLR Version: 10.0.426.12010
+.NET Version: 10.0.4
+Description: The process was terminated due to an unhandled exception.
+Exception Info: Npgsql.NpgsqlException (0x80004005): Failed to connect to [::1]:5432
+ ---&gt; System.Net.Sockets.SocketException (10013): An attempt was made to access a socket in a way forbidden by its access permissions.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at Npgsql.Internal.NpgsqlConnector.ConnectAsync(NpgsqlTimeout timeout, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.ConnectAsync(NpgsqlTimeout timeout, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.RawOpen(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.&lt;Open&gt;g__OpenCore|209_0(NpgsqlConnector conn, String username, SslMode sslMode, GssEncryptionMode gssEncMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.&lt;Get&gt;g__RentAsync|33_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.&lt;Open&gt;g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Migrations.HistoryRepository.GetAppliedMigrationsAsync(CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Migrations.Internal.NpgsqlHistoryRepository.GetAppliedMigrationsAsync(CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Migrations.Internal.NpgsqlMigrator.MigrateAsync(String targetMigration, CancellationToken cancellationToken)
+   at Phantoms.Persistence.DependencyInjection.ApplyMigrationsAsync(IServiceProvider services) in C:\Users\Mahir\Saved Games\Phantoms\src\Infrastructure\Phantoms.Persistence\DependencyInjection.cs:line 53
+   at Program.&lt;Main&gt;$(String[] args) in C:\Users\Mahir\Saved Games\Phantoms\src\Presentation\Phantoms.API\Program.cs:line 68
+   at Program.&lt;Main&gt;(String[] args)
+</Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1018</EventID><Level>1</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-14T10:23:31Z"/><EventRecordID>638432296</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Application '/LM/W3SVC/1566072750/ROOT' with physical root 'C:\home\site\wwwroot\' hit unexpected managed exception, exception code = '0xe0434352'. First 30KB characters of captured stdout and stderr logs:
+fail: Microsoft.EntityFrameworkCore.Database.Connection[20004]
+      An error occurred using the connection to database 'PhantomsDb' on server 'tcp://localhost:5432'.
+Unhandled exception. Npgsql.NpgsqlException (0x80004005): Failed to connect to [::1]:5432
+ ---&gt; System.Net.Sockets.SocketException (10013): An attempt was made to access a socket in a way forbidden by its access permissions.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at Npgsql.Internal.NpgsqlConnector.ConnectAsync(NpgsqlTimeout timeout, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.ConnectAsync(NpgsqlTimeout timeout, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.RawOpen(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.&lt;Open&gt;g__OpenCore|209_0(NpgsqlConnector conn, String username, SslMode sslMode, GssEncryptionMode gssEncMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.&lt;Get&gt;g__RentAsync|33_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.&lt;Open&gt;g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Migrations.HistoryRepository.GetAppliedMigrationsAsync(CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Migrations.Internal.NpgsqlHistoryRepository.GetAppliedMigrationsAsync(CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Migrations.Internal.NpgsqlMigrator.MigrateAsync(String targetMigration, CancellationToken cancellationToken)
+   at Phantoms.Persistence.DependencyInjection.ApplyMigrationsAsync(IServiceProvider services) in C:\Users\Mahir\Saved Games\Phantoms\src\Infrastructure\Phantoms.Persistence\DependencyInjection.cs:line 53
+   at Program.&lt;Main&gt;$(String[] args) in C:\Users\Mahir\Saved Games\Phantoms\src\Presentation\Phantoms.API\Program.cs:line 68
+   at Program.&lt;Main&gt;(String[] args)
+</Data><Data>Process Id: 12800.</Data><Data>File Version: 20.0.26050.4. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: </Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1007</EventID><Level>1</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-14T10:23:31Z"/><EventRecordID>638432296</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Application '/LM/W3SVC/1566072750/ROOT' with physical root 'C:\home\site\wwwroot\' failed to load coreclr. Exception message:
+CLR worker thread exited prematurely</Data><Data>Process Id: 12800.</Data><Data>File Version: 20.0.26050.4. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: </Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1012</EventID><Level>4</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-14T10:44:22Z"/><EventRecordID>639682828</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Application 'C:\home\site\wwwroot\' was recycled after detecting app_offline.htm.</Data><Data>Process Id: 12800.</Data><Data>File Version: 20.0.26050.4. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: </Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1012</EventID><Level>4</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-14T10:44:23Z"/><EventRecordID>639683343</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Application 'C:\home\site\wwwroot\' was recycled after detecting app_offline.htm.</Data><Data>Process Id: 12800.</Data><Data>File Version: 20.0.26050.4. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: </Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1032</EventID><Level>4</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-14T10:44:42Z"/><EventRecordID>639702515</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Application 'C:\home\site\wwwroot\' started successfully.</Data><Data>Process Id: 15892.</Data><Data>File Version: 20.0.26050.4. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: </Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1033</EventID><Level>4</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-14T11:06:36Z"/><EventRecordID>641016734</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Application 'MACHINE/WEBROOT/APPHOST/CODEPHANTOMS' has shutdown.</Data><Data>Process Id: 15892.</Data><Data>File Version: 20.0.26050.4. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: </Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1032</EventID><Level>4</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-14T11:40:10Z"/><EventRecordID>643031250</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Application 'C:\home\site\wwwroot\' started successfully.</Data><Data>Process Id: 24484.</Data><Data>File Version: 20.0.26050.4. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: </Data></EventData></Event><Event><System><Provider Name=".NET Runtime"/><EventID>1000</EventID><Level>2</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-14T11:52:48Z"/><EventRecordID>643788640</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Category: Phantoms.Infrastructure.Services.GoogleTokenValidator
+EventId: 0
+SpanId: bf5fc763b873dd5e
+TraceId: a8810aefdad088f904370e413637247a
+ParentId: 0000000000000000
+RequestId: 40000577-0005-fd00-b63f-84710c7967bb
+RequestPath: /api/Auth/google-signin
+ActionId: 4e37ce7c-0ee1-41da-846c-222f6199194f
+ActionName: Phantoms.API.Controllers.AuthController.GoogleSignIn (Phantoms.API)
+
+Google token validation failed: JWT contains untrusted 'aud' claim.
+</Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1033</EventID><Level>4</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-14T12:13:05Z"/><EventRecordID>645005468</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Application 'MACHINE/WEBROOT/APPHOST/CODEPHANTOMS' has shutdown.</Data><Data>Process Id: 24484.</Data><Data>File Version: 20.0.26050.4. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: </Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1032</EventID><Level>4</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-14T12:19:51Z"/><EventRecordID>645412156</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Application 'C:\home\site\wwwroot\' started successfully.</Data><Data>Process Id: 6496.</Data><Data>File Version: 20.0.26050.4. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: </Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1033</EventID><Level>4</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-14T13:08:46Z"/><EventRecordID>648346343</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Application 'MACHINE/WEBROOT/APPHOST/CODEPHANTOMS' has shutdown.</Data><Data>Process Id: 6496.</Data><Data>File Version: 20.0.26050.4. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: </Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1032</EventID><Level>4</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-14T13:34:53Z"/><EventRecordID>649914187</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Application 'C:\home\site\wwwroot\' started successfully.</Data><Data>Process Id: 19288.</Data><Data>File Version: 20.0.26050.4. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: </Data></EventData></Event><Event><System><Provider Name=".NET Runtime"/><EventID>1000</EventID><Level>2</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-14T13:36:00Z"/><EventRecordID>649980593</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Category: LuckyPennySoftware.MediatR.License
+EventId: 0
+SpanId: 9424f579d24df407
+TraceId: f8fe301018ebc57f546161cb94b125f8
+ParentId: 0000000000000000
+RequestId: 40003a27-0005-f900-b63f-84710c7967bb
+RequestPath: /api/Products
+ActionId: 6a7e9d8d-675a-4308-97c1-9270413f63d7
+ActionName: Phantoms.API.Controllers.ProductsController.GetAll (Phantoms.API)
+
+You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+</Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1012</EventID><Level>4</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-14T14:10:02Z"/><EventRecordID>652023187</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Application 'C:\home\site\wwwroot\' was recycled after detecting app_offline.htm.</Data><Data>Process Id: 19288.</Data><Data>File Version: 20.0.26050.4. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: </Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1033</EventID><Level>4</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-14T14:10:03Z"/><EventRecordID>652023375</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Application 'MACHINE/WEBROOT/APPHOST/CODEPHANTOMS' has shutdown.</Data><Data>Process Id: 19288.</Data><Data>File Version: 20.0.26050.4. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: </Data></EventData></Event><Event><System><Provider Name=".NET Runtime"/><EventID>1000</EventID><Level>1</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-14T14:10:33Z"/><EventRecordID>652053812</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Category: Microsoft.EntityFrameworkCore.Database.Command
+EventId: 20102
+
+Failed executing DbCommand (66ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+</Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1032</EventID><Level>4</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-14T14:10:36Z"/><EventRecordID>652056750</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Application 'C:\home\site\wwwroot\' started successfully.</Data><Data>Process Id: 1960.</Data><Data>File Version: 20.0.26050.4. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: </Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1033</EventID><Level>4</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-14T14:10:36Z"/><EventRecordID>652056906</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Application 'MACHINE/WEBROOT/APPHOST/CODEPHANTOMS' has shutdown.</Data><Data>Process Id: 1960.</Data><Data>File Version: 20.0.26050.4. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: </Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1032</EventID><Level>4</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-14T14:10:43Z"/><EventRecordID>652063921</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Application 'C:\home\site\wwwroot\' started successfully.</Data><Data>Process Id: 12816.</Data><Data>File Version: 20.0.26050.4. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: </Data></EventData></Event><Event><System><Provider Name=".NET Runtime"/><EventID>1000</EventID><Level>2</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-14T14:10:43Z"/><EventRecordID>652064078</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Category: LuckyPennySoftware.MediatR.License
+EventId: 0
+SpanId: b27933fee6dd9926
+TraceId: 66142ea5e46abf12670446acbe419d2c
+ParentId: 0000000000000000
+RequestId: 40000c2f-0002-fc00-b63f-84710c7967bb
+RequestPath: /api/Products
+ActionId: ebf1af29-cdfd-44af-8193-e3e47a5b5ee6
+ActionName: Phantoms.API.Controllers.ProductsController.GetAll (Phantoms.API)
+
+You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+</Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1012</EventID><Level>4</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-14T14:28:13Z"/><EventRecordID>653113281</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Application 'C:\home\site\wwwroot\' was recycled after detecting app_offline.htm.</Data><Data>Process Id: 12816.</Data><Data>File Version: 20.0.26050.4. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: </Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1033</EventID><Level>4</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-14T14:28:13Z"/><EventRecordID>653113343</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Application 'MACHINE/WEBROOT/APPHOST/CODEPHANTOMS' has shutdown.</Data><Data>Process Id: 12816.</Data><Data>File Version: 20.0.26050.4. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: </Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1032</EventID><Level>4</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-14T14:28:56Z"/><EventRecordID>653156812</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Application 'C:\home\site\wwwroot\' started successfully.</Data><Data>Process Id: 15780.</Data><Data>File Version: 20.0.26050.4. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: </Data></EventData></Event><Event><System><Provider Name=".NET Runtime"/><EventID>1000</EventID><Level>2</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-14T14:33:19Z"/><EventRecordID>653420156</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Category: LuckyPennySoftware.MediatR.License
+EventId: 0
+SpanId: 3f7c13dc38095433
+TraceId: 836c9096710ed85d725a8506b5536787
+ParentId: 0000000000000000
+RequestId: 400009ec-0003-f900-b63f-84710c7967bb
+RequestPath: /api/Products
+ActionId: ec279e27-0fad-4e66-a317-064365a01897
+ActionName: Phantoms.API.Controllers.ProductsController.GetAll (Phantoms.API)
+
+You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+</Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1033</EventID><Level>4</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-14T15:22:52Z"/><EventRecordID>656392968</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Application 'MACHINE/WEBROOT/APPHOST/CODEPHANTOMS' has shutdown.</Data><Data>Process Id: 15780.</Data><Data>File Version: 20.0.26050.4. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: </Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1032</EventID><Level>4</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-14T15:40:10Z"/><EventRecordID>657431156</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Application 'C:\home\site\wwwroot\' started successfully.</Data><Data>Process Id: 14988.</Data><Data>File Version: 20.0.26050.4. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: </Data></EventData></Event><Event><System><Provider Name=".NET Runtime"/><EventID>1000</EventID><Level>2</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-14T15:40:11Z"/><EventRecordID>657431500</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Category: Phantoms.Infrastructure.Services.GoogleTokenValidator
+EventId: 0
+SpanId: 18da135897adf89d
+TraceId: ec5bc24da4a2b7144180cf50fbf66236
+ParentId: 0000000000000000
+RequestId: 400000c5-0001-f700-b63f-84710c7967bb
+RequestPath: /api/Auth/google-signin
+ActionId: 02cdf8d6-a75e-458a-9054-9b275bd7532a
+ActionName: Phantoms.API.Controllers.AuthController.GoogleSignIn (Phantoms.API)
+
+Google token validation failed: JWT contains untrusted 'aud' claim.
+</Data></EventData></Event><Event><System><Provider Name=".NET Runtime"/><EventID>1000</EventID><Level>2</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-14T15:45:36Z"/><EventRecordID>657756609</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Category: Phantoms.Infrastructure.Services.GoogleTokenValidator
+EventId: 0
+SpanId: aa2d7b766fe8813b
+TraceId: 66340417102320fd2bfbc4bfb2e6ffbb
+ParentId: 0000000000000000
+RequestId: 400000fa-0006-f000-b63f-84710c7967bb
+RequestPath: /api/Auth/google-signin
+ActionId: 02cdf8d6-a75e-458a-9054-9b275bd7532a
+ActionName: Phantoms.API.Controllers.AuthController.GoogleSignIn (Phantoms.API)
+
+Google token validation failed: JWT contains untrusted 'aud' claim.
+</Data></EventData></Event><Event><System><Provider Name=".NET Runtime"/><EventID>1000</EventID><Level>2</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-14T15:47:37Z"/><EventRecordID>657878078</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Category: LuckyPennySoftware.MediatR.License
+EventId: 0
+SpanId: 89532fe489bb46af
+TraceId: f587bc4bd8b6a6f08a34712cad64e590
+ParentId: 0000000000000000
+RequestId: 4000076f-0007-f300-b63f-84710c7967bb
+RequestPath: /api/Products
+ActionId: 6b34fdcf-3aa3-427f-9daf-5c9eb8af5536
+ActionName: Phantoms.API.Controllers.ProductsController.GetAll (Phantoms.API)
+
+You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+</Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1033</EventID><Level>4</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-14T16:08:04Z"/><EventRecordID>659104906</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Application 'MACHINE/WEBROOT/APPHOST/CODEPHANTOMS' has shutdown.</Data><Data>Process Id: 14988.</Data><Data>File Version: 20.0.26050.4. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: </Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1032</EventID><Level>4</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-14T17:05:37Z"/><EventRecordID>662558171</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Application 'C:\home\site\wwwroot\' started successfully.</Data><Data>Process Id: 2548.</Data><Data>File Version: 20.0.26050.4. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: </Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1033</EventID><Level>4</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-14T17:26:31Z"/><EventRecordID>663811968</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Application 'MACHINE/WEBROOT/APPHOST/CODEPHANTOMS' has shutdown.</Data><Data>Process Id: 2548.</Data><Data>File Version: 20.0.26050.4. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: </Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1032</EventID><Level>4</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-15T10:11:51Z"/><EventRecordID>724131000</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Application 'C:\home\site\wwwroot\' started successfully.</Data><Data>Process Id: 8552.</Data><Data>File Version: 20.0.26050.4. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: </Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1033</EventID><Level>4</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-15T10:32:36Z"/><EventRecordID>725376625</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Application 'MACHINE/WEBROOT/APPHOST/CODEPHANTOMS' has shutdown.</Data><Data>Process Id: 8552.</Data><Data>File Version: 20.0.26050.4. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: </Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1032</EventID><Level>4</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-15T11:51:25Z"/><EventRecordID>730105796</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Application 'C:\home\site\wwwroot\' started successfully.</Data><Data>Process Id: 16096.</Data><Data>File Version: 20.0.26050.4. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: </Data></EventData></Event><Event><System><Provider Name=".NET Runtime"/><EventID>1000</EventID><Level>2</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-15T11:51:26Z"/><EventRecordID>730106687</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Category: LuckyPennySoftware.MediatR.License
+EventId: 0
+SpanId: 32215f0f6cec2228
+TraceId: ff2d1c84794bbc8680c840a2d415128f
+ParentId: 0000000000000000
+RequestId: 4000097d-0001-fd00-b63f-84710c7967bb
+RequestPath: /api/Products
+ActionId: 09b44963-6f04-476c-9987-650e0d0df8db
+ActionName: Phantoms.API.Controllers.ProductsController.GetAll (Phantoms.API)
+
+You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+</Data></EventData></Event><Event><System><Provider Name=".NET Runtime"/><EventID>1000</EventID><Level>2</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-15T11:51:27Z"/><EventRecordID>730107203</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Category: LuckyPennySoftware.MediatR.License
+EventId: 0
+SpanId: 0ea1400cb710da08
+TraceId: 7c65195a2dc7fcc5bc0ed4528ddfe4c5
+ParentId: 0000000000000000
+RequestId: 4000082a-0002-f600-b63f-84710c7967bb
+RequestPath: /api/Products
+ActionId: 09b44963-6f04-476c-9987-650e0d0df8db
+ActionName: Phantoms.API.Controllers.ProductsController.GetAll (Phantoms.API)
+
+You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+</Data></EventData></Event><Event><System><Provider Name=".NET Runtime"/><EventID>1000</EventID><Level>2</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-15T11:55:46Z"/><EventRecordID>730366906</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Category: Phantoms.Infrastructure.Services.GoogleTokenValidator
+EventId: 0
+SpanId: aa75fb8145265649
+TraceId: d0287cd40de48d9ed7f42ef3ec02ffe2
+ParentId: 0000000000000000
+RequestId: 4000cebf-0005-fb00-b63f-84710c7967bb
+RequestPath: /api/Auth/google-signin
+ActionId: 1c51b9ca-ac77-447c-b9b4-685394a6175e
+ActionName: Phantoms.API.Controllers.AuthController.GoogleSignIn (Phantoms.API)
+
+Google token validation failed: JWT contains untrusted 'aud' claim.
+</Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1033</EventID><Level>4</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-15T12:37:19Z"/><EventRecordID>732859640</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Application 'MACHINE/WEBROOT/APPHOST/CODEPHANTOMS' has shutdown.</Data><Data>Process Id: 16096.</Data><Data>File Version: 20.0.26050.4. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: </Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1032</EventID><Level>4</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-15T13:30:28Z"/><EventRecordID>736048781</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Application 'C:\home\site\wwwroot\' started successfully.</Data><Data>Process Id: 14612.</Data><Data>File Version: 20.0.26050.4. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: </Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1033</EventID><Level>4</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-15T14:20:22Z"/><EventRecordID>739042343</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Application 'MACHINE/WEBROOT/APPHOST/CODEPHANTOMS' has shutdown.</Data><Data>Process Id: 14612.</Data><Data>File Version: 20.0.26050.4. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: </Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1032</EventID><Level>4</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-15T15:01:55Z"/><EventRecordID>741535000</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Application 'C:\home\site\wwwroot\' started successfully.</Data><Data>Process Id: 17220.</Data><Data>File Version: 20.0.26050.4. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: </Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1033</EventID><Level>4</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-15T15:22:48Z"/><EventRecordID>742788843</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Application 'MACHINE/WEBROOT/APPHOST/CODEPHANTOMS' has shutdown.</Data><Data>Process Id: 17220.</Data><Data>File Version: 20.0.26050.4. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: </Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1032</EventID><Level>4</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-15T17:14:25Z"/><EventRecordID>749485546</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Application 'C:\home\site\wwwroot\' started successfully.</Data><Data>Process Id: 15992.</Data><Data>File Version: 20.0.26050.4. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: </Data></EventData></Event><Event><System><Provider Name=".NET Runtime"/><EventID>1000</EventID><Level>2</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-15T17:14:25Z"/><EventRecordID>749485703</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Category: LuckyPennySoftware.MediatR.License
+EventId: 0
+SpanId: 396ccc636e09aa5c
+TraceId: f38c208a04208264a8ddcfff605320e9
+ParentId: 0000000000000000
+RequestId: 400002e2-0003-f700-b63f-84710c7967bb
+RequestPath: /api/Products
+ActionId: 39761a54-0fc2-430a-94aa-571885560678
+ActionName: Phantoms.API.Controllers.ProductsController.GetAll (Phantoms.API)
+
+You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+</Data></EventData></Event><Event><System><Provider Name=".NET Runtime"/><EventID>1000</EventID><Level>2</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-15T17:14:26Z"/><EventRecordID>749486218</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Category: LuckyPennySoftware.MediatR.License
+EventId: 0
+SpanId: e607569e5b150275
+TraceId: 9c429720473ded18512fea7fa291540d
+ParentId: 0000000000000000
+RequestId: 400001f5-0006-ed00-b63f-84710c7967bb
+RequestPath: /api/Products
+ActionId: 39761a54-0fc2-430a-94aa-571885560678
+ActionName: Phantoms.API.Controllers.ProductsController.GetAll (Phantoms.API)
+
+You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+</Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1033</EventID><Level>4</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-15T17:35:19Z"/><EventRecordID>750739312</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Application 'MACHINE/WEBROOT/APPHOST/CODEPHANTOMS' has shutdown.</Data><Data>Process Id: 15992.</Data><Data>File Version: 20.0.26050.4. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: </Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1032</EventID><Level>4</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-15T18:12:25Z"/><EventRecordID>752965109</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Application 'C:\home\site\wwwroot\' started successfully.</Data><Data>Process Id: 4296.</Data><Data>File Version: 20.0.26050.4. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: </Data></EventData></Event><Event><System><Provider Name=".NET Runtime"/><EventID>1000</EventID><Level>2</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-15T18:26:43Z"/><EventRecordID>753823203</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Category: LuckyPennySoftware.MediatR.License
+EventId: 0
+SpanId: a4e540c7c85463ad
+TraceId: 7f10bada3cc50c4134c4fe4a4146f03b
+ParentId: 0000000000000000
+RequestId: 40000e07-0004-f100-b63f-84710c7967bb
+RequestPath: /api/Products
+ActionId: b9513cf4-a5a3-4d62-9db4-995e2a11b96e
+ActionName: Phantoms.API.Controllers.ProductsController.GetAll (Phantoms.API)
+
+You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+</Data></EventData></Event><Event><System><Provider Name=".NET Runtime"/><EventID>1000</EventID><Level>1</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-15T20:10:29Z"/><EventRecordID>760049140</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Category: Phantoms.API.Middleware.GlobalExceptionHandler
+EventId: 0
+SpanId: a126bac66a56bf3b
+TraceId: a6b710475abd753a9bf95bc34bf11525
+ParentId: 0000000000000000
+RequestId: 40000e48-0004-f100-b63f-84710c7967bb
+RequestPath: /api/Admin/assign-role
+
+Unhandled exception [FormatException]: Guid should contain 32 digits with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).
+
+Exception: 
+System.FormatException: Guid should contain 32 digits with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).
+   at System.Guid.GuidResult.SetFailure(ParseFailure failureKind)
+   at System.Guid.TryParseExactN[TChar](ReadOnlySpan`1 guidString, GuidResult&amp; result)
+   at System.Guid.TryParseGuid[TChar](ReadOnlySpan`1 guidString, GuidResult&amp; result)
+   at System.Guid..ctor(String g)
+   at System.ComponentModel.GuidConverter.ConvertFrom(ITypeDescriptorContext context, CultureInfo culture, Object value)
+   at System.ComponentModel.TypeConverter.ConvertFromInvariantString(String text)
+   at Microsoft.AspNetCore.Identity.UserStoreBase`5.ConvertIdFromString(String id)
+   at Microsoft.AspNetCore.Identity.EntityFrameworkCore.UserStore`10.FindByIdAsync(String userId, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Identity.UserManager`1.FindByIdAsync(String userId)
+   at Phantoms.API.Controllers.AdminController.AssignRole(AssignRoleDto dto) in C:\Users\Mahir\Saved Games\Phantoms\src\Presentation\Phantoms.API\Controllers\AdminController.cs:line 41
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeActionMethodAsync&gt;g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeNextActionFilterAsync&gt;g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State&amp; next, Scope&amp; scope, Object&amp; state, Boolean&amp; isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeInnerFilterAsync&gt;g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeFilterPipelineAsync&gt;g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.&lt;Invoke&gt;g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+</Data></EventData></Event><Event><System><Provider Name=".NET Runtime"/><EventID>1000</EventID><Level>2</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-15T20:28:43Z"/><EventRecordID>761142953</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Category: Phantoms.API.Middleware.GlobalExceptionHandler
+EventId: 0
+SpanId: 3adf348385bdcb56
+TraceId: b60fcaa9b91641d74b0e4e9b43d16511
+ParentId: 0000000000000000
+RequestId: 40000ab6-0007-f000-b63f-84710c7967bb
+RequestPath: /api/Products
+
+Validation failure: One or more validation failures have occurred.
+</Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1012</EventID><Level>4</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-15T20:37:20Z"/><EventRecordID>761660484</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Application 'C:\home\site\wwwroot\' was recycled after detecting app_offline.htm.</Data><Data>Process Id: 4296.</Data><Data>File Version: 20.0.26050.4. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: </Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1033</EventID><Level>4</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-15T20:37:20Z"/><EventRecordID>761660531</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Application 'MACHINE/WEBROOT/APPHOST/CODEPHANTOMS' has shutdown.</Data><Data>Process Id: 4296.</Data><Data>File Version: 20.0.26050.4. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: </Data></EventData></Event><Event><System><Provider Name=".NET Runtime"/><EventID>1026</EventID><Level>1</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-15T20:38:05Z"/><EventRecordID>761705000</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Application: w3wp.exe
+CoreCLR Version: 10.0.426.12010
+.NET Version: 10.0.4
+Description: The process was terminated due to an unhandled exception.
+Exception Info: System.ArgumentException: Format of the initialization string does not conform to specification starting at index 0.
+   at System.Data.Common.DbConnectionOptions.GetKeyValuePair(String connectionString, Int32 currentPosition, StringBuilder buffer, Boolean useOdbcRules, String&amp; keyname, String&amp; keyvalue)
+   at System.Data.Common.DbConnectionOptions.ParseInternal(Dictionary`2 parsetable, String connectionString, Boolean buildChain, Dictionary`2 synonyms, Boolean firstKey)
+   at System.Data.Common.DbConnectionOptions..ctor(String connectionString, Dictionary`2 synonyms, Boolean useOdbcRules)
+   at System.Data.Common.DbConnectionStringBuilder.set_ConnectionString(String value)
+   at Npgsql.NpgsqlConnectionStringBuilder..ctor(String connectionString)
+   at Npgsql.NpgsqlConnection.SetupDataSource()
+   at Npgsql.NpgsqlConnection.set_ConnectionString(String value)
+   at Npgsql.NpgsqlConnection..ctor(String connectionString)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlRelationalConnection.CreateDbConnection()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.get_DbConnection()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Migrations.HistoryRepository.GetAppliedMigrationsAsync(CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Migrations.Internal.NpgsqlHistoryRepository.GetAppliedMigrationsAsync(CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Migrations.Internal.NpgsqlMigrator.MigrateAsync(String targetMigration, CancellationToken cancellationToken)
+   at Phantoms.Persistence.DependencyInjection.ApplyMigrationsAsync(IServiceProvider services) in C:\Users\Mahir\Saved Games\Phantoms\src\Infrastructure\Phantoms.Persistence\DependencyInjection.cs:line 53
+   at Program.&lt;Main&gt;$(String[] args) in C:\Users\Mahir\Saved Games\Phantoms\src\Presentation\Phantoms.API\Program.cs:line 68
+   at Program.&lt;Main&gt;(String[] args)
+</Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1018</EventID><Level>1</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-15T20:38:05Z"/><EventRecordID>761705000</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Application '/LM/W3SVC/1566072750/ROOT' with physical root 'C:\home\site\wwwroot\' hit unexpected managed exception, exception code = '0xe0434352'. First 30KB characters of captured stdout and stderr logs:
+Unhandled exception. System.ArgumentException: Format of the initialization string does not conform to specification starting at index 0.
+   at System.Data.Common.DbConnectionOptions.GetKeyValuePair(String connectionString, Int32 currentPosition, StringBuilder buffer, Boolean useOdbcRules, String&amp; keyname, String&amp; keyvalue)
+   at System.Data.Common.DbConnectionOptions.ParseInternal(Dictionary`2 parsetable, String connectionString, Boolean buildChain, Dictionary`2 synonyms, Boolean firstKey)
+   at System.Data.Common.DbConnectionOptions..ctor(String connectionString, Dictionary`2 synonyms, Boolean useOdbcRules)
+   at System.Data.Common.DbConnectionStringBuilder.set_ConnectionString(String value)
+   at Npgsql.NpgsqlConnectionStringBuilder..ctor(String connectionString)
+   at Npgsql.NpgsqlConnection.SetupDataSource()
+   at Npgsql.NpgsqlConnection.set_ConnectionString(String value)
+   at Npgsql.NpgsqlConnection..ctor(String connectionString)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlRelationalConnection.CreateDbConnection()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.get_DbConnection()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Migrations.HistoryRepository.GetAppliedMigrationsAsync(CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Migrations.Internal.NpgsqlHistoryRepository.GetAppliedMigrationsAsync(CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Migrations.Internal.NpgsqlMigrator.MigrateAsync(String targetMigration, CancellationToken cancellationToken)
+   at Phantoms.Persistence.DependencyInjection.ApplyMigrationsAsync(IServiceProvider services) in C:\Users\Mahir\Saved Games\Phantoms\src\Infrastructure\Phantoms.Persistence\DependencyInjection.cs:line 53
+   at Program.&lt;Main&gt;$(String[] args) in C:\Users\Mahir\Saved Games\Phantoms\src\Presentation\Phantoms.API\Program.cs:line 68
+   at Program.&lt;Main&gt;(String[] args)
+</Data><Data>Process Id: 22092.</Data><Data>File Version: 20.0.26050.4. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: </Data></EventData></Event><Event><System><Provider Name="IIS AspNetCore Module V2"/><EventID>1007</EventID><Level>1</Level><Task>0</Task><Keywords>Keywords</Keywords><TimeCreated SystemTime="2026-05-15T20:38:05Z"/><EventRecordID>761705015</EventRecordID><Channel>Application</Channel><Computer>WEBWK000006</Computer><Security/></System><EventData><Data>Application '/LM/W3SVC/1566072750/ROOT' with physical root 'C:\home\site\wwwroot\' failed to load coreclr. Exception message:
+CLR worker thread exited prematurely</Data><Data>Process Id: 22092.</Data><Data>File Version: 20.0.26050.4. Description: IIS ASP.NET Core Module V2 Request Handler. Commit: </Data></EventData></Event></Events>
