@@ -50,7 +50,14 @@ public static class Permissions
         public const string View   = "Permissions.Roles.View";
         public const string Manage = "Permissions.Roles.Manage";
     }
-
+    public static class Students
+    {
+        public const string View = "Permissions.Students.View";
+        public const string Create = "Permissions.Students.Create";
+        public const string Edit = "Permissions.Students.Edit";
+        public const string Delete = "Permissions.Students.Delete";
+    }
+    
     public static IEnumerable<string> All()
     {
         yield return Products.View;
@@ -62,6 +69,7 @@ public static class Permissions
         yield return Users.Delete;
         yield return Roles.View;
         yield return Roles.Manage;
+<<<<<<< Updated upstream
         yield return Teachers.Edit;
         yield return Teachers.Delete;
         yield return Teachers.Create;
@@ -78,5 +86,11 @@ public static class Permissions
         yield return Announcements.Delete;
         yield return Announcements.Share;
         yield return Announcements.Publish;
+=======
+        yield return Students.View;
+        yield return Students.Create;
+        yield return Students.Edit;
+        yield return Students.Delete;
+>>>>>>> Stashed changes
     }
 }

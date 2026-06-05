@@ -13,8 +13,14 @@ public class AppDbContext(DbContextOptions<AppDbContext> options, ICurrentUserSe
 {
     public DbSet<Product> Products => Set<Product>();
     public DbSet<ProductImage> ProductImages => Set<ProductImage>();
+<<<<<<< Updated upstream
     public DbSet<Event> Events => Set<Event>();
     public DbSet<Announcement> Announcements => Set<Announcement>();
+=======
+    public DbSet<Student> Students => Set<Student>();
+    public DbSet<LostFound> LostFounds => Set<LostFound>();
+    public DbSet<TeamFinder> TeamFinders => Set<TeamFinder>();  
+>>>>>>> Stashed changes
 
     protected override void OnModelCreating(ModelBuilder builder)
     {
