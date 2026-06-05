@@ -37,10 +37,9 @@ COPY src/ src/
 # ============================================================
 FROM build AS publish
 RUN dotnet publish src/Presentation/Phantoms.API/Phantoms.API.csproj \
-	--configuration Release \
-	--no-restore \
-	--output /app/publish \
-	/p:UseAppHost=false
+    --configuration Release \
+    --output /app/publish \
+    /p:UseAppHost=false
 
 # ============================================================
 #  Stage 4 – Final image (runtime only, no SDK)
@@ -50,7 +49,7 @@ WORKDIR /app
 COPY --from=publish /app/publish .
 
 # Run as non-root for security
-RUN adduser --disabled-password --gecos "" appuser && chown -R appuser /app
+RUN useradd -u 5678 --create-home --shell /bin/bash appuser && chown -R appuser /app
 USER appuser
 
 ENTRYPOINT ["dotnet", "Phantoms.API.dll"]

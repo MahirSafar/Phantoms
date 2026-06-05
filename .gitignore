@@ -87,8 +87,10 @@ secrets.json
 # ──────────────────────────────────────────────────────────
 # Docker
 # ──────────────────────────────────────────────────────────
+Dockerfile
 phantoms_pgdata/
 docker-compose.override.yml
+docker-compose.yml
 
 # ──────────────────────────────────────────────────────────
 # OS generated files
