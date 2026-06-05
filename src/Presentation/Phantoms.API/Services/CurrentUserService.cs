@@ -13,4 +13,6 @@ public class CurrentUserService(IHttpContextAccessor httpContextAccessor) : ICur
     public string? UserName => _user?.FindFirstValue(ClaimTypes.Name);
 
     public bool IsAuthenticated => _user?.Identity?.IsAuthenticated ?? false;
+
+    public bool IsInRole(string role) => _user?.IsInRole(role) ?? false;
 }
