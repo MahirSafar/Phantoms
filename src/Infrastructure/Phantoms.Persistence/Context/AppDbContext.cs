@@ -13,6 +13,8 @@ public class AppDbContext(DbContextOptions<AppDbContext> options, ICurrentUserSe
 {
     public DbSet<Product> Products => Set<Product>();
     public DbSet<ProductImage> ProductImages => Set<ProductImage>();
+    public DbSet<Event> Events => Set<Event>();
+    public DbSet<Announcement> Announcements => Set<Announcement>();
 
     protected override void OnModelCreating(ModelBuilder builder)
     {

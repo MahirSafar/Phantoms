@@ -17,6 +17,34 @@ public static class Permissions
         public const string Delete = "Permissions.Users.Delete";
     }
 
+    public static class Teachers
+    {
+        public const string Edit = "Permissions.Teachers.Edit";
+        public const string Delete = "Permissions.Teachers.Delete";
+        public const string Create = "Permissions.Teachers.Create";
+        public const string Share = "Permissions.Teachers.Share";
+    }
+
+    public static class Events
+    {
+        public const string View = "Permissions.Events.View";
+        public const string Create = "Permissions.Events.Create";
+        public const string Edit = "Permissions.Events.Edit";
+        public const string Delete = "Permissions.Events.Delete";
+        public const string Share = "Permissions.Events.Share";
+        public const string Publish = "Permissions.Events.Publish";
+    }
+
+    public static class Announcements
+    {
+        public const string View = "Permissions.Announcements.View";
+        public const string Create = "Permissions.Announcements.Create";
+        public const string Edit = "Permissions.Announcements.Edit";
+        public const string Delete = "Permissions.Announcements.Delete";
+        public const string Share = "Permissions.Announcements.Share";
+        public const string Publish = "Permissions.Announcements.Publish";
+    }
+
     public static class Roles
     {
         public const string View   = "Permissions.Roles.View";
@@ -34,5 +62,21 @@ public static class Permissions
         yield return Users.Delete;
         yield return Roles.View;
         yield return Roles.Manage;
+        yield return Teachers.Edit;
+        yield return Teachers.Delete;
+        yield return Teachers.Create;
+        yield return Teachers.Share;
+        yield return Events.View;
+        yield return Events.Create;
+        yield return Events.Edit;
+        yield return Events.Delete;
+        yield return Events.Share;
+        yield return Events.Publish;
+        yield return Announcements.View;
+        yield return Announcements.Create;
+        yield return Announcements.Edit;
+        yield return Announcements.Delete;
+        yield return Announcements.Share;
+        yield return Announcements.Publish;
     }
 }

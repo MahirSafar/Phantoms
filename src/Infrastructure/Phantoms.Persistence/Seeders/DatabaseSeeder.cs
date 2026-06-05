@@ -18,7 +18,7 @@ public static class DatabaseSeeder
             var userManager = services.GetRequiredService<UserManager<AppUser>>();
 
             // Seed roles
-            string[] roleNames = [Roles.Admin, Roles.Client];
+            string[] roleNames = [Roles.Admin, Roles.Client, Roles.Teacher];
             foreach (var roleName in roleNames)
             {
                 if (!await roleManager.RoleExistsAsync(roleName))
@@ -42,11 +42,36 @@ public static class DatabaseSeeder
             if (clientRole is not null)
             {
                 var existingClaims = await roleManager.GetClaimsAsync(clientRole);
-                string[] clientPermissions = [Permissions.Products.View];
+                string[] clientPermissions = [Permissions.Products.View, Permissions.Events.View, Permissions.Announcements.View];
                 foreach (var permission in clientPermissions)
                 {
                     if (!existingClaims.Any(c => c.Type == "permission" && c.Value == permission))
                         await roleManager.AddClaimAsync(clientRole, new System.Security.Claims.Claim("permission", permission));
+                }
+            }
+
+            // Add permissions to Teacher role
+            var teacherRole = await roleManager.FindByNameAsync(Roles.Teacher);
+            if (teacherRole is not null)
+            {
+                var existingClaims = await roleManager.GetClaimsAsync(teacherRole);
+                string[] teacherPermissions =
+                [
+                    Permissions.Events.View,
+                    Permissions.Events.Create,
+                    Permissions.Events.Edit,
+                    Permissions.Events.Delete,
+                    Permissions.Events.Share,
+                    Permissions.Announcements.View,
+                    Permissions.Announcements.Create,
+                    Permissions.Announcements.Edit,
+                    Permissions.Announcements.Delete,
+                    Permissions.Announcements.Share
+                ];
+                foreach (var permission in teacherPermissions)
+                {
+                    if (!existingClaims.Any(c => c.Type == "permission" && c.Value == permission))
+                        await roleManager.AddClaimAsync(teacherRole, new System.Security.Claims.Claim("permission", permission));
                 }
             }
 
