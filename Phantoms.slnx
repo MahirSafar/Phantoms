@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/Core/">
+    <Project Path="src/Core/Phantoms.Application/Phantoms.Application.csproj" />
+    <Project Path="src/Core/Phantoms.Domain/Phantoms.Domain.csproj" />
+  </Folder>
+  <Folder Name="/src/Infrastructure/">
+    <Project Path="src/Infrastructure/Phantoms.Infrastructure/Phantoms.Infrastructure.csproj" />
+    <Project Path="src/Infrastructure/Phantoms.Persistence/Phantoms.Persistence.csproj" />
+  </Folder>
+  <Folder Name="/src/Presentation/">
+    <Project Path="src/Presentation/Phantoms.API/Phantoms.API.csproj" />
+  </Folder>
+</Solution>
